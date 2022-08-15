@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WCFUsuarios", "WCFUsuarios\", "{406D63C9-03D4-4637-BF40-F77858109ACA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		ProjectReferences = "{f0135a19-fbac-4891-a8d3-959e096d7d60}|AppBusiness.dll;{5bc6a2f5-5983-4d47-84b1-76a5bc4faad6}|AppEntity.dll;{224800ED-7096-4E3A-9680-BBB041739C0C}|AppData.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_63497"
+		Debug.AspNetCompiler.PhysicalPath = "WCFUsuarios\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63497\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_63497"
+		Release.AspNetCompiler.PhysicalPath = "WCFUsuarios\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_63497\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "63497"
+		SlnRelativePath = "WCFUsuarios\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1UI", "1UI", "{09D56A9D-9666-4FCA-832B-721047EE484C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2Business", "2Business", "{2A229779-1B39-4843-8E6A-96A475C51065}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3Data", "3Data", "{B0BB7971-1185-42B1-8299-0B2FFE48027A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppBusiness", "AppBusiness\AppBusiness.csproj", "{F0135A19-FBAC-4891-A8D3-959E096D7D60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppEntity", "AppEntity\AppEntity.csproj", "{5BC6A2F5-5983-4D47-84B1-76A5BC4FAAD6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppData", "AppData\AppData.csproj", "{224800ED-7096-4E3A-9680-BBB041739C0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{406D63C9-03D4-4637-BF40-F77858109ACA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406D63C9-03D4-4637-BF40-F77858109ACA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406D63C9-03D4-4637-BF40-F77858109ACA}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{406D63C9-03D4-4637-BF40-F77858109ACA}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{F0135A19-FBAC-4891-A8D3-959E096D7D60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0135A19-FBAC-4891-A8D3-959E096D7D60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0135A19-FBAC-4891-A8D3-959E096D7D60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0135A19-FBAC-4891-A8D3-959E096D7D60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BC6A2F5-5983-4D47-84B1-76A5BC4FAAD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BC6A2F5-5983-4D47-84B1-76A5BC4FAAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BC6A2F5-5983-4D47-84B1-76A5BC4FAAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BC6A2F5-5983-4D47-84B1-76A5BC4FAAD6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{224800ED-7096-4E3A-9680-BBB041739C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{224800ED-7096-4E3A-9680-BBB041739C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{224800ED-7096-4E3A-9680-BBB041739C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{224800ED-7096-4E3A-9680-BBB041739C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{406D63C9-03D4-4637-BF40-F77858109ACA} = {09D56A9D-9666-4FCA-832B-721047EE484C}
+		{F0135A19-FBAC-4891-A8D3-959E096D7D60} = {2A229779-1B39-4843-8E6A-96A475C51065}
+		{5BC6A2F5-5983-4D47-84B1-76A5BC4FAAD6} = {2A229779-1B39-4843-8E6A-96A475C51065}
+		{224800ED-7096-4E3A-9680-BBB041739C0C} = {B0BB7971-1185-42B1-8299-0B2FFE48027A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D1917BB6-239E-46FC-BB72-7E14C2A26A67}
+	EndGlobalSection
+EndGlobal
